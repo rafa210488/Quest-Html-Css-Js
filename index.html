@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quest HTML/CSS/JavaScript</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <main class="container">
+    
+      <section class="text">
+        <h1 class="text-title">FICOU COM DÚVIDA?<br>
+        NOS MANDE UMA MENSAGEM!
+        </h1>
+        <p class="text-info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+      </section>
+      <form id="form">
+        
+        <div class="name">
+          <input type="text" class="input" name="name" placeholder="Nome completo *">
+          <span ></span>
+        </div>
+
+        <div class="name">
+          <input type="email"  class="input" name="email" placeholder="Email *">
+          <span ></span>
+        </div>
+
+        <div class="name">
+          <input type="tel" class="input" name="tel"  placeholder="Telefone *">
+          <span ></span>
+        </div>
+
+        <div class="name">
+          <textarea name="message" class="input" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+          <span ></span>
+        </div>
+        
+        <p>*campos obrigatórios</p>
+        
+        <input type="submit" value="Enviar" id="button">
+      </form>
+    
+  </main>
+
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
